@@ -1,0 +1,1196 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Constructor called is Dateformat(const char*, const char*, const char*) -----
+ Input :  NULL  NULL  NULL 
+ Output :  NULL  NULL  NULL 
+ Input :  NULL  NULL yy
+ Output :  NULL  NULL yy
+ Input :  NULL  NULL yyyy
+ Output :  NULL  NULL yyyy
+ Input :  NULL  NULL yyy
+ Output : Wrong year format!  NULL  NULL yyy
+ Input :  NULL m NULL 
+ Output :  NULL m NULL 
+ Input :  NULL myy
+ Output :  NULL myy
+ Input :  NULL myyyy
+ Output :  NULL myyyy
+ Input :  NULL myyy
+ Output : Wrong year format!  NULL myyy
+ Input :  NULL mm NULL 
+ Output :  NULL mm NULL 
+ Input :  NULL mmyy
+ Output :  NULL mmyy
+ Input :  NULL mmyyyy
+ Output :  NULL mmyyyy
+ Input :  NULL mmyyy
+ Output : Wrong year format!  NULL mmyyy
+ Input :  NULL mmm NULL 
+ Output :  NULL mmm NULL 
+ Input :  NULL mmmyy
+ Output :  NULL mmmyy
+ Input :  NULL mmmyyyy
+ Output :  NULL mmmyyyy
+ Input :  NULL mmmyyy
+ Output : Wrong year format!  NULL mmmyyy
+ Input :  NULL mmmm NULL 
+ Output : Wrong month format!  NULL mmmm NULL 
+ Input :  NULL mmmmyy
+ Output : Wrong month format!  NULL mmmmyy
+ Input :  NULL mmmmyyyy
+ Output : Wrong month format!  NULL mmmmyyyy
+ Input :  NULL mmmmyyy
+ Output : Wrong month format! Wrong year format!  NULL mmmmyyy
+ Input : d NULL  NULL 
+ Output : d NULL  NULL 
+ Input : d NULL yy
+ Output : d NULL yy
+ Input : d NULL yyyy
+ Output : d NULL yyyy
+ Input : d NULL yyy
+ Output : Wrong year format! d NULL yyy
+ Input : dm NULL 
+ Output : dm NULL 
+ Input : dmyy
+ Output : dmyy
+ Input : dmyyyy
+ Output : dmyyyy
+ Input : dmyyy
+ Output : Wrong year format! dmyyy
+ Input : dmm NULL 
+ Output : dmm NULL 
+ Input : dmmyy
+ Output : dmmyy
+ Input : dmmyyyy
+ Output : dmmyyyy
+ Input : dmmyyy
+ Output : Wrong year format! dmmyyy
+ Input : dmmm NULL 
+ Output : dmmm NULL 
+ Input : dmmmyy
+ Output : dmmmyy
+ Input : dmmmyyyy
+ Output : dmmmyyyy
+ Input : dmmmyyy
+ Output : Wrong year format! dmmmyyy
+ Input : dmmmm NULL 
+ Output : Wrong month format! dmmmm NULL 
+ Input : dmmmmyy
+ Output : Wrong month format! dmmmmyy
+ Input : dmmmmyyyy
+ Output : Wrong month format! dmmmmyyyy
+ Input : dmmmmyyy
+ Output : Wrong month format! Wrong year format! dmmmmyyy
+ Input : dd NULL  NULL 
+ Output : dd NULL  NULL 
+ Input : dd NULL yy
+ Output : dd NULL yy
+ Input : dd NULL yyyy
+ Output : dd NULL yyyy
+ Input : dd NULL yyy
+ Output : Wrong year format! dd NULL yyy
+ Input : ddm NULL 
+ Output : ddm NULL 
+ Input : ddmyy
+ Output : ddmyy
+ Input : ddmyyyy
+ Output : ddmyyyy
+ Input : ddmyyy
+ Output : Wrong year format! ddmyyy
+ Input : ddmm NULL 
+ Output : ddmm NULL 
+ Input : ddmmyy
+ Output : ddmmyy
+ Input : ddmmyyyy
+ Output : ddmmyyyy
+ Input : ddmmyyy
+ Output : Wrong year format! ddmmyyy
+ Input : ddmmm NULL 
+ Output : ddmmm NULL 
+ Input : ddmmmyy
+ Output : ddmmmyy
+ Input : ddmmmyyyy
+ Output : ddmmmyyyy
+ Input : ddmmmyyy
+ Output : Wrong year format! ddmmmyyy
+ Input : ddmmmm NULL 
+ Output : Wrong month format! ddmmmm NULL 
+ Input : ddmmmmyy
+ Output : Wrong month format! ddmmmmyy
+ Input : ddmmmmyyyy
+ Output : Wrong month format! ddmmmmyyyy
+ Input : ddmmmmyyy
+ Output : Wrong month format! Wrong year format! ddmmmmyyy
+ Input : ddd NULL  NULL 
+ Output : Wrong date format! ddd NULL  NULL 
+ Input : ddd NULL yy
+ Output : Wrong date format! ddd NULL yy
+ Input : ddd NULL yyyy
+ Output : Wrong date format! ddd NULL yyyy
+ Input : ddd NULL yyy
+ Output : Wrong date format! Wrong year format! ddd NULL yyy
+ Input : dddm NULL 
+ Output : Wrong date format! dddm NULL 
+ Input : dddmyy
+ Output : Wrong date format! dddmyy
+ Input : dddmyyyy
+ Output : Wrong date format! dddmyyyy
+ Input : dddmyyy
+ Output : Wrong date format! Wrong year format! dddmyyy
+ Input : dddmm NULL 
+ Output : Wrong date format! dddmm NULL 
+ Input : dddmmyy
+ Output : Wrong date format! dddmmyy
+ Input : dddmmyyyy
+ Output : Wrong date format! dddmmyyyy
+ Input : dddmmyyy
+ Output : Wrong date format! Wrong year format! dddmmyyy
+ Input : dddmmm NULL 
+ Output : Wrong date format! dddmmm NULL 
+ Input : dddmmmyy
+ Output : Wrong date format! dddmmmyy
+ Input : dddmmmyyyy
+ Output : Wrong date format! dddmmmyyyy
+ Input : dddmmmyyy
+ Output : Wrong date format! Wrong year format! dddmmmyyy
+ Input : dddmmmm NULL 
+ Output : Wrong date format! Wrong month format! dddmmmm NULL 
+ Input : dddmmmmyy
+ Output : Wrong date format! Wrong month format! dddmmmmyy
+ Input : dddmmmmyyyy
+ Output : Wrong date format! Wrong month format! dddmmmmyyyy
+ Input : dddmmmmyyy
+ Output : Wrong date format! Wrong month format! Wrong year format! dddmmmmyyy
+
+
+-----Constructor called is Dateformat(const char* ) -----
+
+ Input : --
+ Output : --
+
+ Input : --yy
+ Output : --yy
+
+ Input : --yyyy
+ Output : --yyyy
+
+ Input : ---yy
+ Output : Wrong format! ---yy
+
+ Input : -m-
+ Output : -m-
+
+ Input : -m-yy
+ Output : -m-yy
+
+ Input : -m-yyyy
+ Output : -m-yyyy
+
+ Input : -m--yy
+ Output : Wrong format! -m--yy
+
+ Input : -mm-
+ Output : -mm-
+
+ Input : -mm-yy
+ Output : -mm-yy
+
+ Input : -mm-yyyy
+ Output : -mm-yyyy
+
+ Input : -mm--yy
+ Output : Wrong format! -mm--yy
+
+ Input : -mmm-
+ Output : -mmm-
+
+ Input : -mmm-yy
+ Output : -mmm-yy
+
+ Input : -mmm-yyyy
+ Output : -mmm-yyyy
+
+ Input : -mmm--yy
+ Output : Wrong format! -mmm--yy
+
+ Input : -mm
+ Output : Wrong format! -mm
+
+ Input : -mmyy
+ Output : Wrong format! -mmyy
+
+ Input : -mmyyyy
+ Output : Wrong format! -mmyyyy
+
+ Input : -mm-yy
+ Output : -mm-yy
+
+ Input : d--
+ Output : d--
+
+ Input : d--yy
+ Output : d--yy
+
+ Input : d--yyyy
+ Output : d--yyyy
+
+ Input : d---yy
+ Output : Wrong format! d---yy
+
+ Input : d-m-
+ Output : d-m-
+
+ Input : d-m-yy
+ Output : d-m-yy
+
+ Input : d-m-yyyy
+ Output : d-m-yyyy
+
+ Input : d-m--yy
+ Output : Wrong format! d-m--yy
+
+ Input : d-mm-
+ Output : d-mm-
+
+ Input : d-mm-yy
+ Output : d-mm-yy
+
+ Input : d-mm-yyyy
+ Output : d-mm-yyyy
+
+ Input : d-mm--yy
+ Output : Wrong format! d-mm--yy
+
+ Input : d-mmm-
+ Output : d-mmm-
+
+ Input : d-mmm-yy
+ Output : d-mmm-yy
+
+ Input : d-mmm-yyyy
+ Output : d-mmm-yyyy
+
+ Input : d-mmm--yy
+ Output : Wrong format! d-mmm--yy
+
+ Input : d-mm
+ Output : Wrong format! d-mm
+
+ Input : d-mmyy
+ Output : Wrong format! d-mmyy
+
+ Input : d-mmyyyy
+ Output : Wrong format! d-mmyyyy
+
+ Input : d-mm-yy
+ Output : d-mm-yy
+
+ Input : dd--
+ Output : dd--
+
+ Input : dd--yy
+ Output : dd--yy
+
+ Input : dd--yyyy
+ Output : dd--yyyy
+
+ Input : dd---yy
+ Output : Wrong format! dd---yy
+
+ Input : dd-m-
+ Output : dd-m-
+
+ Input : dd-m-yy
+ Output : dd-m-yy
+
+ Input : dd-m-yyyy
+ Output : dd-m-yyyy
+
+ Input : dd-m--yy
+ Output : Wrong format! dd-m--yy
+
+ Input : dd-mm-
+ Output : dd-mm-
+
+ Input : dd-mm-yy
+ Output : dd-mm-yy
+
+ Input : dd-mm-yyyy
+ Output : dd-mm-yyyy
+
+ Input : dd-mm--yy
+ Output : Wrong format! dd-mm--yy
+
+ Input : dd-mmm-
+ Output : dd-mmm-
+
+ Input : dd-mmm-yy
+ Output : dd-mmm-yy
+
+ Input : dd-mmm-yyyy
+ Output : dd-mmm-yyyy
+
+ Input : dd-mmm--yy
+ Output : Wrong format! dd-mmm--yy
+
+ Input : dd-mm
+ Output : Wrong format! dd-mm
+
+ Input : dd-mmyy
+ Output : Wrong format! dd-mmyy
+
+ Input : dd-mmyyyy
+ Output : Wrong format! dd-mmyyyy
+
+ Input : dd-mm-yy
+ Output : dd-mm-yy
+
+ Input : d-
+ Output : Wrong format! d-
+
+ Input : d-yy
+ Output : Wrong format! d-yy
+
+ Input : d-yyyy
+ Output : Wrong format! d-yyyy
+
+ Input : d--yy
+ Output : d--yy
+
+ Input : dm-
+ Output : Wrong format! dm-
+
+ Input : dm-yy
+ Output : Wrong format! dm-yy
+
+ Input : dm-yyyy
+ Output : Wrong format! dm-yyyy
+
+ Input : dm--yy
+ Output : Wrong date format! dm--yy
+
+ Input : dmm-
+ Output : Wrong format! dmm-
+
+ Input : dmm-yy
+ Output : Wrong format! dmm-yy
+
+ Input : dmm-yyyy
+ Output : Wrong format! dmm-yyyy
+
+ Input : dmm--yy
+ Output : Wrong date format! dmm--yy
+
+ Input : dmmm-
+ Output : Wrong format! dmmm-
+
+ Input : dmmm-yy
+ Output : Wrong format! dmmm-yy
+
+ Input : dmmm-yyyy
+ Output : Wrong format! dmmm-yyyy
+
+ Input : dmmm--yy
+ Output : Wrong date format! dmmm--yy
+
+ Input : dmm
+ Output : Wrong format! dmm
+
+ Input : dmmyy
+ Output : Wrong format! dmmyy
+
+ Input : dmmyyyy
+ Output : Wrong format! dmmyyyy
+
+ Input : dmm-yy
+ Output : Wrong format! dmm-yy
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Date Constructor Date(day d,month m ,year y)-----
+
+Input:  Day- 1 Month- 2 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 1 Month- 2 Year- 1950
+Output:  Day- 1 Month- 2 Year- 1950
+
+Input:  Day- 1 Month- 2 Year- 2000
+Output:  Day- 1 Month- 2 Year- 2000
+
+Input:  Day- 1 Month- 2 Year- 2049
+Output:  Day- 1 Month- 2 Year- 2049
+
+Input:  Day- 1 Month- 2 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 1 Month- 3 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 1 Month- 3 Year- 1950
+Output:  Day- 1 Month- 3 Year- 1950
+
+Input:  Day- 1 Month- 3 Year- 2000
+Output:  Day- 1 Month- 3 Year- 2000
+
+Input:  Day- 1 Month- 3 Year- 2049
+Output:  Day- 1 Month- 3 Year- 2049
+
+Input:  Day- 1 Month- 3 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 1 Month- 9 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 1 Month- 9 Year- 1950
+Output:  Day- 1 Month- 9 Year- 1950
+
+Input:  Day- 1 Month- 9 Year- 2000
+Output:  Day- 1 Month- 9 Year- 2000
+
+Input:  Day- 1 Month- 9 Year- 2049
+Output:  Day- 1 Month- 9 Year- 2049
+
+Input:  Day- 1 Month- 9 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 28 Month- 2 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 28 Month- 2 Year- 1950
+Output:  Day- 28 Month- 2 Year- 1950
+
+Input:  Day- 28 Month- 2 Year- 2000
+Output:  Day- 28 Month- 2 Year- 2000
+
+Input:  Day- 28 Month- 2 Year- 2049
+Output:  Day- 28 Month- 2 Year- 2049
+
+Input:  Day- 28 Month- 2 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 28 Month- 3 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 28 Month- 3 Year- 1950
+Output:  Day- 28 Month- 3 Year- 1950
+
+Input:  Day- 28 Month- 3 Year- 2000
+Output:  Day- 28 Month- 3 Year- 2000
+
+Input:  Day- 28 Month- 3 Year- 2049
+Output:  Day- 28 Month- 3 Year- 2049
+
+Input:  Day- 28 Month- 3 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 28 Month- 9 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 28 Month- 9 Year- 1950
+Output:  Day- 28 Month- 9 Year- 1950
+
+Input:  Day- 28 Month- 9 Year- 2000
+Output:  Day- 28 Month- 9 Year- 2000
+
+Input:  Day- 28 Month- 9 Year- 2049
+Output:  Day- 28 Month- 9 Year- 2049
+
+Input:  Day- 28 Month- 9 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 29 Month- 2 Year- 1949
+Output: only 28 days in the month
+
+Input:  Day- 29 Month- 2 Year- 1950
+Output: only 28 days in the month
+
+Input:  Day- 29 Month- 2 Year- 2000
+Output:  Day- 29 Month- 2 Year- 2000
+
+Input:  Day- 29 Month- 2 Year- 2049
+Output: only 28 days in the month
+
+Input:  Day- 29 Month- 2 Year- 2050
+Output: only 28 days in the month
+
+Input:  Day- 29 Month- 3 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 29 Month- 3 Year- 1950
+Output:  Day- 29 Month- 3 Year- 1950
+
+Input:  Day- 29 Month- 3 Year- 2000
+Output:  Day- 29 Month- 3 Year- 2000
+
+Input:  Day- 29 Month- 3 Year- 2049
+Output:  Day- 29 Month- 3 Year- 2049
+
+Input:  Day- 29 Month- 3 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 29 Month- 9 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 29 Month- 9 Year- 1950
+Output:  Day- 29 Month- 9 Year- 1950
+
+Input:  Day- 29 Month- 9 Year- 2000
+Output:  Day- 29 Month- 9 Year- 2000
+
+Input:  Day- 29 Month- 9 Year- 2049
+Output:  Day- 29 Month- 9 Year- 2049
+
+Input:  Day- 29 Month- 9 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 31 Month- 2 Year- 1949
+Output: only 28 days in the month
+
+Input:  Day- 31 Month- 2 Year- 1950
+Output: only 28 days in the month
+
+Input:  Day- 31 Month- 2 Year- 2000
+Output: only 29 days in the month
+
+Input:  Day- 31 Month- 2 Year- 2049
+Output: only 28 days in the month
+
+Input:  Day- 31 Month- 2 Year- 2050
+Output: only 28 days in the month
+
+Input:  Day- 31 Month- 3 Year- 1949
+Output: year not within the given range
+
+Input:  Day- 31 Month- 3 Year- 1950
+Output:  Day- 31 Month- 3 Year- 1950
+
+Input:  Day- 31 Month- 3 Year- 2000
+Output:  Day- 31 Month- 3 Year- 2000
+
+Input:  Day- 31 Month- 3 Year- 2049
+Output:  Day- 31 Month- 3 Year- 2049
+
+Input:  Day- 31 Month- 3 Year- 2050
+Output: year not within the given range
+
+Input:  Day- 31 Month- 9 Year- 1949
+Output: only 30 days in the month
+
+Input:  Day- 31 Month- 9 Year- 1950
+Output: only 30 days in the month
+
+Input:  Day- 31 Month- 9 Year- 2000
+Output: only 30 days in the month
+
+Input:  Day- 31 Month- 9 Year- 2049
+Output: only 30 days in the month
+
+Input:  Day- 31 Month- 9 Year- 2050
+Output: only 30 days in the month
+
+
+
+
+ -----Date Constructor Date(const char*)-----
+
+saty
+Format is dd- NULL - NULL 
+--------------------------------------------------------------------------------
+Input: 2-2-85
+Output: set format first 
+
+
+Input: 2-2-2004
+Output: set format first 
+
+
+Input: 2-2-2050
+Output: set format first 
+
+
+Input: 2-03-85
+Output: set format first 
+
+
+Input: 2-03-2004
+Output: set format first 
+
+
+Input: 2-03-2050
+Output: set format first 
+
+
+Input: 2-09-85
+Output: set format first 
+
+
+Input: 2-09-2004
+Output: set format first 
+
+
+Input: 2-09-2050
+Output: set format first 
+
+
+Input: 2-14-85
+Output: set format first 
+
+
+Input: 2-14-2004
+Output: set format first 
+
+
+Input: 2-14-2050
+Output: set format first 
+
+
+Input: 08-2-85
+Output: set format first 
+
+
+Input: 08-2-2004
+Output: set format first 
+
+
+Input: 08-2-2050
+Output: set format first 
+
+
+Input: 08-03-85
+Output: set format first 
+
+
+Input: 08-03-2004
+Output: set format first 
+
+
+Input: 08-03-2050
+Output: set format first 
+
+
+Input: 08-09-85
+Output: set format first 
+
+
+Input: 08-09-2004
+Output: set format first 
+
+
+Input: 08-09-2050
+Output: set format first 
+
+
+Input: 08-14-85
+Output: set format first 
+
+
+Input: 08-14-2004
+Output: set format first 
+
+
+Input: 08-14-2050
+Output: set format first 
+
+
+Input: 29-2-85
+Output: set format first 
+
+
+Input: 29-2-2004
+Output: set format first 
+
+
+Input: 29-2-2050
+Output: set format first 
+
+
+Input: 29-03-85
+Output: set format first 
+
+
+Input: 29-03-2004
+Output: set format first 
+
+
+Input: 29-03-2050
+Output: set format first 
+
+
+Input: 29-09-85
+Output: set format first 
+
+
+Input: 29-09-2004
+Output: set format first 
+
+
+Input: 29-09-2050
+Output: set format first 
+
+
+Input: 29-14-85
+Output: set format first 
+
+
+Input: 29-14-2004
+Output: set format first 
+
+
+Input: 29-14-2050
+Output: set format first 
+
+
+Input: 32-2-85
+Output: set format first 
+
+
+Input: 32-2-2004
+Output: set format first 
+
+
+Input: 32-2-2050
+Output: set format first 
+
+
+Input: 32-03-85
+Output: set format first 
+
+
+Input: 32-03-2004
+Output: set format first 
+
+
+Input: 32-03-2050
+Output: set format first 
+
+
+Input: 32-09-85
+Output: set format first 
+
+
+Input: 32-09-2004
+Output: set format first 
+
+
+Input: 32-09-2050
+Output: set format first 
+
+
+Input: 32-14-85
+Output: set format first 
+
+
+Input: 32-14-2004
+Output: set format first 
+
+
+Input: 32-14-2050
+Output: set format first 
+
+
+saty
+Format is dd-mm-yyyy
+--------------------------------------------------------------------------------
+Input: 2-2-85
+Output: Mismatching date format! 
+
+Input: 2-2-2004
+Output: Mismatching date format! 
+
+Input: 2-2-2050
+Output: Mismatching date format! 
+
+Input: 2-03-85
+Output: Mismatching date format! 
+
+Input: 2-03-2004
+Output: Mismatching date format! 
+
+Input: 2-03-2050
+Output: Mismatching date format! 
+
+Input: 2-09-85
+Output: Mismatching date format! 
+
+Input: 2-09-2004
+Output: Mismatching date format! 
+
+Input: 2-09-2050
+Output: Mismatching date format! 
+
+Input: 2-14-85
+Output: Mismatching date format! 
+
+Input: 2-14-2004
+Output: Mismatching date format! 
+
+Input: 2-14-2050
+Output: Mismatching date format! 
+
+Input: 08-2-85
+Output: Mismatching month format! 
+
+Input: 08-2-2004
+Output: Mismatching month format! 
+
+Input: 08-2-2050
+Output: Mismatching month format! 
+
+Input: 08-03-85
+Output: Mismatching year format! 
+
+Input: 08-03-2004
+Output: 08-03-2004
+
+Input: 08-03-2050
+Output: year not within the given range
+
+Input: 08-09-85
+Output: Mismatching year format! 
+
+Input: 08-09-2004
+Output: 08-09-2004
+
+Input: 08-09-2050
+Output: year not within the given range
+
+Input: 08-14-85
+Output: Mismatching year format! 
+
+Input: 08-14-2004
+Output: not a valid month
+
+Input: 08-14-2050
+Output: not a valid month
+
+Input: 29-2-85
+Output: Mismatching month format! 
+
+Input: 29-2-2004
+Output: Mismatching month format! 
+
+Input: 29-2-2050
+Output: Mismatching month format! 
+
+Input: 29-03-85
+Output: Mismatching year format! 
+
+Input: 29-03-2004
+Output: 29-03-2004
+
+Input: 29-03-2050
+Output: year not within the given range
+
+Input: 29-09-85
+Output: Mismatching year format! 
+
+Input: 29-09-2004
+Output: 29-09-2004
+
+Input: 29-09-2050
+Output: year not within the given range
+
+Input: 29-14-85
+Output: Mismatching year format! 
+
+Input: 29-14-2004
+Output: not a valid month
+
+Input: 29-14-2050
+Output: not a valid month
+
+Input: 32-2-85
+Output: Mismatching month format! 
+
+Input: 32-2-2004
+Output: Mismatching month format! 
+
+Input: 32-2-2050
+Output: Mismatching month format! 
+
+Input: 32-03-85
+Output: Mismatching year format! 
+
+Input: 32-03-2004
+Output: not a valid date
+
+Input: 32-03-2050
+Output: not a valid date
+
+Input: 32-09-85
+Output: Mismatching year format! 
+
+Input: 32-09-2004
+Output: not a valid date
+
+Input: 32-09-2050
+Output: not a valid date
+
+Input: 32-14-85
+Output: Mismatching year format! 
+
+Input: 32-14-2004
+Output: not a valid month
+
+Input: 32-14-2050
+Output: not a valid month
+
+saty
+Format is d-m-yy
+--------------------------------------------------------------------------------
+Input: 2-2-85
+Output: 2-2-85
+
+Input: 2-2-2004
+Output: Mismatching year format! 
+
+Input: 2-2-2050
+Output: Mismatching year format! 
+
+Input: 2-03-85
+Output: Mismatching month format! 
+
+Input: 2-03-2004
+Output: Mismatching month format! 
+
+Input: 2-03-2050
+Output: Mismatching month format! 
+
+Input: 2-09-85
+Output: Mismatching month format! 
+
+Input: 2-09-2004
+Output: Mismatching month format! 
+
+Input: 2-09-2050
+Output: Mismatching month format! 
+
+Input: 2-14-85
+Output: not a valid month
+
+Input: 2-14-2004
+Output: Mismatching year format! 
+
+Input: 2-14-2050
+Output: Mismatching year format! 
+
+Input: 08-2-85
+Output: Mismatching date format! 
+
+Input: 08-2-2004
+Output: Mismatching date format! 
+
+Input: 08-2-2050
+Output: Mismatching date format! 
+
+Input: 08-03-85
+Output: Mismatching date format! 
+
+Input: 08-03-2004
+Output: Mismatching date format! 
+
+Input: 08-03-2050
+Output: Mismatching date format! 
+
+Input: 08-09-85
+Output: Mismatching date format! 
+
+Input: 08-09-2004
+Output: Mismatching date format! 
+
+Input: 08-09-2050
+Output: Mismatching date format! 
+
+Input: 08-14-85
+Output: Mismatching date format! 
+
+Input: 08-14-2004
+Output: Mismatching date format! 
+
+Input: 08-14-2050
+Output: Mismatching date format! 
+
+Input: 29-2-85
+Output: only 28 days in the month
+
+Input: 29-2-2004
+Output: Mismatching year format! 
+
+Input: 29-2-2050
+Output: Mismatching year format! 
+
+Input: 29-03-85
+Output: Mismatching month format! 
+
+Input: 29-03-2004
+Output: Mismatching month format! 
+
+Input: 29-03-2050
+Output: Mismatching month format! 
+
+Input: 29-09-85
+Output: Mismatching month format! 
+
+Input: 29-09-2004
+Output: Mismatching month format! 
+
+Input: 29-09-2050
+Output: Mismatching month format! 
+
+Input: 29-14-85
+Output: not a valid month
+
+Input: 29-14-2004
+Output: Mismatching year format! 
+
+Input: 29-14-2050
+Output: Mismatching year format! 
+
+Input: 32-2-85
+Output: not a valid date
+
+Input: 32-2-2004
+Output: Mismatching year format! 
+
+Input: 32-2-2050
+Output: Mismatching year format! 
+
+Input: 32-03-85
+Output: Mismatching month format! 
+
+Input: 32-03-2004
+Output: Mismatching month format! 
+
+Input: 32-03-2050
+Output: Mismatching month format! 
+
+Input: 32-09-85
+Output: Mismatching month format! 
+
+Input: 32-09-2004
+Output: Mismatching month format! 
+
+Input: 32-09-2050
+Output: Mismatching month format! 
+
+Input: 32-14-85
+Output: not a valid month
+
+Input: 32-14-2004
+Output: Mismatching year format! 
+
+Input: 32-14-2050
+Output: Mismatching year format! 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking unary operators-----
+
+ Testing with date 01-01-1950
+ ----------------------------------
+
+Operator pre increment 
+02-01-1950
+
+Operator post increment 
+08-01-1950
+
+Operator pre decrement 
+year not within the given range
+
+Operator post decrement 
+year not within the given range
+
+ Testing with date 28-02-2001
+ ----------------------------------
+
+Operator pre increment 
+01-03-2001
+
+Operator post increment 
+07-03-2001
+
+Operator pre decrement 
+27-02-2001
+
+Operator post decrement 
+21-02-2001
+
+ Testing with date 29-02-2004
+ ----------------------------------
+
+Operator pre increment 
+01-03-2004
+
+Operator post increment 
+07-03-2004
+
+Operator pre decrement 
+28-02-2004
+
+Operator post decrement 
+22-02-2004
+
+ Testing with date 31-12-2049
+ ----------------------------------
+
+Operator pre increment 
+year not within the given range
+
+Operator post increment 
+year not within the given range
+
+Operator pre decrement 
+30-12-2049
+
+Operator post decrement 
+24-12-2049
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking Difference operator-----
+No. of days between 04-03-2003 and 28-02-2003 is 4
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking add operator-----
+Adding 22 days 
+------------------------
+01-01-1950 ------ > 23-01-1950
+28-02-2001 ------ > 22-03-2001
+29-03-2004 ------ > 20-04-2004
+31-12-2049 ------ > year not within the given range
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking cast oparators-----
+Month of 02-01-2016 is 1
+Weekday of 02-01-2016 is 6
+WeekNumber of 02-01-2016 is 53
+Month of 06-03-2016 is 3
+Weekday of 06-03-2016 is 7
+WeekNumber of 06-03-2016 is 9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking leap year-----
+01-01-1950-----> not  leap year
+28-02-2000----->Leap year
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking relational oparators-----
+20-02-1996 = 20-02-1996
+20-02-1996 <= 20-02-1996
+20-02-1996 >= 20-02-1996
+-----------
+20-02-1996 != 19-04-1996
+20-02-1996 <= 19-04-1996
+20-02-1996 < 19-04-1996
+-----------
+19-04-1996 != 20-02-1996
+19-04-1996 >= 20-02-1996
+19-04-1996 > 20-02-1996
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-----Checking Output Format-----
+dd-mm-yyyy------>20-02-1996
+d-m-yy------>20-2-96
+dd-mmm-yy------>20-Feb-96
+dd--yyyy------>20-February-1996
